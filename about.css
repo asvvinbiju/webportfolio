@@ -1,0 +1,156 @@
+/* Panchang Font */
+
+@font-face {
+    font-family: "panchang";
+    src: url("fonts/Panchang/Fonts/OTF/Panchang-Extrabold.otf");
+}
+
+/* Rajdhani Font */
+
+@font-face {
+    font-family: "rajdhani";
+    src: url("fonts/Rajdhani/Fonts/OTF/Rajdhani-Regular.otf");
+}
+
+/* Satoshi Font */
+
+@font-face {
+    font-family: "satoshi";
+    src: url("fonts/Satoshi/Fonts/OTF/Satoshi-Regular.otf");
+}
+@font-face {
+    font-family: "satoshi";
+    src: url("fonts/Satoshi/Fonts/OTF/Satoshi-Italic.otf");
+    font-style: italic
+}
+
+/* Styro Font */
+
+@font-face {
+    font-family: "styro";
+    src: url("fonts/Styro/Fonts/OTF/Styro-Black.otf");
+}
+
+/* Kohinoor Font */
+
+@font-face {
+    font-family: "kohinoor";
+    src: url("fonts/KohinoorZerone_Complete/Fonts/OTF/KohinoorZerone-Zero.otf");
+}
+
+@font-face {
+    font-family: "outward";
+    src: url("fonts/outward-borders.ttf");
+}
+/* *{
+    background-color: #10100E;
+    color: #FFF7E9;
+    background-image: url("diagonal-lines.svg");
+    background-repeat: repeat;
+} */
+
+
+#homeframe{
+    background-color: #10100E;
+    color: #FFF7E9;
+    background-image: url("diagonal-lines.svg");
+    background-repeat: repeat;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: #10100E solid 1px; */
+}
+
+.normtext{
+    font-family: satoshi;
+    font-size: 16px;
+    color: rgb(188, 165, 108);
+}
+
+.titletext{
+    font-family: outward;
+    font-size: 190px;
+    text-decoration: none;
+    color: rgb(188, 165, 108);
+    padding: 30px;
+    padding-left: 100px;
+    font-style: italic;
+}
+.headings{
+    font-family: panchang;
+    font-size: 50px;
+    color: rgb(188, 165, 108);
+}
+
+@media screen and (max-width: 400px) and (min-width: 300px) {
+    #homeframe{
+        background-color: #10100E;
+        color: #FFF7E9;
+        background-image: url("diagonal-lines.svg");
+        background-repeat: repeat;
+        height: 100%;
+        /* border: #10100E solid 1px; */
+    }
+    
+    .normtext{
+        font-family: satoshi;
+        font-size: 13px;
+    }
+    
+    .titletext{
+        font-family: outward;
+        font-size: 100px;
+        text-decoration: none;
+        padding: 30px;
+        font-style: italic;
+    }
+    
+    .btn-close{
+        font-size: 20px;
+    }
+
+    .headings{
+        font-family: panchang;
+        font-size: 20px;
+        margin-left: 10px;
+        color: rgb(188, 165, 108);
+    }
+    
+}
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    #homeframe{
+        background-color: #10100E;
+        color: #FFF7E9;
+        background-image: url("diagonal-lines.svg");
+        background-repeat: repeat;
+        height: 100%;
+        /* border: #10100E solid 1px; */
+    }
+    
+    .normtext{
+        font-family: satoshi;
+        font-size: 13px;
+    }
+    
+    .titletext{
+        font-family: outward;
+        font-size: 100px;
+        text-decoration: none;
+        color: #FFF7E9;
+        padding: 30px;
+        font-style: italic;
+    }
+    
+    .btn-close{
+        font-size: 20px;
+    }
+    
+    .headings{
+        font-family: panchang;
+        font-size: 20px;
+        margin-left: 10px;
+        color: rgb(188, 165, 108);
+    }
+}

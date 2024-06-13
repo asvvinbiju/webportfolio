@@ -1,0 +1,22 @@
+/**
+* @license
+*
+* Font Family: Styro
+* Designed by: Aarya Purohit, Indian Type Foundry
+* URL: https://www.fontshare.com/fonts/styro
+* © 2024 Indian Type Foundry
+*
+* Styro Black 
+
+*
+*/
+@font-face {
+  font-family: 'Styro-Black';
+  src: url('../fonts/Styro-Black.woff2') format('woff2'),
+       url('../fonts/Styro-Black.woff') format('woff'),
+       url('../fonts/Styro-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
+

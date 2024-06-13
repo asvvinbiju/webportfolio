@@ -1,0 +1,265 @@
+/* Panchang Font */
+
+@font-face {
+    font-family: "panchang";
+    src: url("fonts/Panchang/Fonts/OTF/Panchang-Extrabold.otf");
+}
+
+/* Rajdhani Font */
+
+@font-face {
+    font-family: "rajdhani";
+    src: url("fonts/Rajdhani/Fonts/OTF/Rajdhani-Regular.otf");
+}
+
+/* Satoshi Font */
+
+@font-face {
+    font-family: "satoshi";
+    src: url("fonts/Satoshi/Fonts/OTF/Satoshi-Regular.otf");
+}
+@font-face {
+    font-family: "satoshi";
+    src: url("fonts/Satoshi/Fonts/OTF/Satoshi-Italic.otf");
+    font-style: italic
+}
+
+/* Styro Font */
+
+@font-face {
+    font-family: "styro";
+    src: url("fonts/Styro/Fonts/OTF/Styro-Black.otf");
+}
+
+/* Kohinoor Font */
+
+@font-face {
+    font-family: "kohinoor";
+    src: url("fonts/KohinoorZerone_Complete/Fonts/OTF/KohinoorZerone-Zero.otf");
+}
+
+@font-face {
+    font-family: "outward";
+    src: url("fonts/outward-borders.ttf");
+}
+/* *{
+    background-color: #10100E;
+    color: #FFF7E9;
+    background-image: url("diagonal-lines.svg");
+    background-repeat: repeat;
+} */
+
+body{
+    background-image: url("diagonal-lines.svg");
+    background-color: #10100E;
+    background-repeat: repeat;
+}
+
+#name{
+    user-select: none; 
+    font-family: styro; 
+    font-size: 200px;
+    background: linear-gradient(to bottom, goldenrod, #FFF7E9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#homeframe{
+    background-color: #10100E;
+    color: #FFF7E9;
+    background-image: url("diagonal-lines.svg");
+    background-repeat: repeat;
+    height: 100vh;
+    /* border: #10100E solid 1px; */
+}
+
+.namebar{
+    margin-top: 80px;
+}
+
+.normtext{
+    font-family: satoshi;
+    font-size: 16px;
+    color: rgb(188, 165, 108);
+}
+
+.cusnavbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navtext{
+    font-family: outward;
+    font-size: 190px;
+    text-decoration: none;
+    color: rgb(188, 165, 108);
+    padding: 30px;
+    font-style: italic;
+}
+
+.navcard{
+    background-color: #10100E;
+}
+
+.collapse.show {
+    display: block;
+    overflow: visible;
+    background-color: #10100E;
+    background-image: url("diagonal-lines.svg");
+    background-repeat: repeat;
+}
+
+.offcanvas-body{
+    background-color: #10100E;
+    color: #FFF7E9;
+    background-image: url("diagonal-lines.svg");
+    background-repeat: repeat;
+}
+.offcanvas-body div{
+    margin: 20px;
+}
+
+.socialtext{
+    font-size: 25px;
+    font-family: panchang;
+}
+navtext:hover{
+    color: #FFF7E9;
+}
+
+@media screen and (max-width: 400px) and (min-width: 300px) {
+    #homeframe{
+        background-color: #10100E;
+        color: #FFF7E9;
+        background-image: url("diagonal-lines.svg");
+        background-repeat: repeat;
+        height: 100%;
+        /* border: #10100E solid 1px; */
+    }
+
+    #name{
+        user-select: none; 
+        font-family: styro; 
+        background: linear-gradient(to bottom, goldenrod, #FFF7E9);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 130px;
+        line-height: 1;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .namebar{
+        margin-top: 10px;
+        margin-bottom:10px;
+    }
+
+    .cusnavbar{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    .nbar{
+        width: 100%;
+    }
+
+    .normtext{
+        font-family: satoshi;
+        font-size: 16px;
+    }
+    
+    .navtext{
+        font-family: outward;
+        font-size: 80px;
+        text-decoration: none;
+        color: rgb(188, 165, 108);
+        font-style: italic;
+    }
+    
+    .navcard{
+        background-color: #10100E;
+    }
+    .socialtext{
+        font-size: 10px;
+        display: none;
+        }
+    .socialicon{
+        display: none;
+        height: 25px;
+        width: 25px;
+    }
+    #mail{
+        margin-top: 30px;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    #homeframe{
+        background-color: #10100E;
+        color: #FFF7E9;
+        background-image: url("diagonal-lines.svg");
+        background-repeat: repeat;
+        height: 100%;
+        /* border: #10100E solid 1px; */
+    }
+
+    #name{
+        user-select: none; 
+        font-family: styro; 
+        background: linear-gradient(to bottom, goldenrod, #FFF7E9);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 130px;
+        line-height: 1;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .namebar{
+        margin-top: 10px;
+        margin-bottom:10px;
+    }
+
+    .cusnavbar{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    .nbar{
+        width: 100%;
+    }
+
+    .normtext{
+        font-family: satoshi;
+        font-size: 16px;
+    }
+    
+    .navtext{
+        font-family: outward;
+        font-size: 80px;
+        text-decoration: none;
+        color: rgb(188, 165, 108);
+        font-style: italic;
+    }
+    
+    .navcard{
+        background-color: #10100E;
+    }
+    .socialtext{
+        font-size: 10px;
+        display: none;
+    }
+    .socialicon{
+        display: none;
+        height: 25px;
+        width: 25px;
+    }
+    .social{
+        display: none;
+    }
+    #mail{
+        margin-top: 30px;
+    }
+}
